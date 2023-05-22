@@ -57,3 +57,4 @@ class Basket:
                 print(f"Product: {item.product.get_name()}, Price: {item.product.get_price()}, Quantity: {item.quantity} , Total price: {item.quantity*item.product.get_price()}")
         else:
             print("Basket is empty.")
+            
